@@ -1,0 +1,386 @@
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+
+header{
+	
+	padding: 5px;
+	
+}
+
+header img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 382px;
+	width: 100%;
+	height: auto;
+	
+}
+
+body{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	
+}
+
+.content{
+	position: relative;
+	display: block;
+	
+	width: 100%;
+	
+	background-color: rgba(128,128,128,0.75);
+	/*background-color: #808080;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	
+	/*opacity: 0.75;*/
+	
+}
+
+.description{
+	position: relative;
+	float: left;
+	/*padding-left: 5%;*/
+	/*width: 43%;*/
+	
+}
+
+.description h2{
+	
+	font-size: 150%;
+	
+}
+
+.description ul{
+	padding-left: 5%;
+	margin-top: 15px;
+	
+}
+
+.description ul li{
+	
+	margin-bottom: 10px;
+	
+}
+
+.description a,
+.description a:hover,
+.description a:visited{
+	color: black;
+	
+}
+
+.description p{
+	margin-top: 15px;
+	padding: 5px;
+	line-height: 20px;
+}
+
+.form,
+.form-mobile,
+.coupon,
+.coupon-mobile{
+	position: relative;
+	float: left;
+	/*width: 48%;*/
+	text-align: center;
+	
+}
+
+.divClass{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.coupon .imgCoupon,
+.coupon-mobile img{
+	position: relative;
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+	
+	max-width: 381px;
+	width: 100%;
+	height: auto;
+	
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+	
+}
+
+footer{
+	position: relative;
+	
+	
+	width: 100%;
+	
+	/*background-color: gray;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	
+	
+}
+
+
+.contact-information{
+	position: relative;
+	float: left;
+	
+	/*width: 60%;*/
+	
+	text-align: center;
+	
+}
+
+.contact-information h2{
+	
+	font-size: 150%;
+	
+	
+}
+
+.contact-information p{
+	
+	margin-top: 25px;
+	font-size: 120%;
+	
+	
+}
+
+
+.map{
+	position: relative;
+	float: left;
+	
+	/*width: 40%;*/
+	
+}
+
+.map iframe{
+	
+	/*width: 80%;*/
+	height: auto;
+	/*border: 1px solid black;*/
+	
+	
+}
+
+.coupon-title{
+	
+	/*font-size: 300%;*/
+	text-align: center;
+	/*color: white;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.pre-coupon{
+	position: relative;
+	display: block;
+	max-width: 965px;
+	width: 100%;
+}
+
+.coupon-contents{
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 965px;
+	width: 100%;
+	height: auto;
+	
+}
+
+.coupon-contents form{
+	/*position: absolute;*/
+	top: 10%;
+	left: 2%;
+	
+	
+}
+
+.coupon-contents p{
+	/*position: absolute;*/
+	top: 17%;
+	/*left: 2%;*/
+	font-size: 16px;
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+
+.name-space{
+	padding: 8px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size: 120%;
+	
+}
+
+.number-space{
+	padding: 8px;
+	border: 0;
+	font-size: 120%;
+	background-color: transparent;
+	
+}
+
+.button-space{
+	display: block;
+	padding: 8px;
+	/*border: 1px solid gray;*/
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.business-form{
+	/*background-color: #ffffff;*/
+	/*width: 50%;*/
+	
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+
+	/*background-color: #FE77AD;*/
+	
+
+}
+
+.business-input{
+	width: 90%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 2%;
+	border-radius: 3px;
+	border: none;
+
+}
+
+.business-message{
+	width: 90%;
+	height: 50px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 2%;
+	border-radius: 3px;
+	border: none;
+
+}
+
+.business-button{
+	width: 60%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 2%;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+
+	/*background-color: #5A8EC7;	
+	color: #FE77AD;*/
+	
+
+}
+
+.monitor{
+	position: fixed;
+	background-color: white;
+	top: 100px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+	
+}
+
+	
+	
+.alternateStarSystem{
+	position: relative;
+	width: 270px;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+
+.alternateStarSystem .back{
+	background-color: white;
+	width: 100%;	
+	height: 50px;
+	opacity: 0.5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;	
+	
+}
+
+.alternateStarSystem .front{
+	position: relative;
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;	
+	display: block;
+	
+	
+	/*height: 50px;*/
+	border-radius: 5px;
+	/*margin-bottom: 10px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;		
+	
+	
+}
+
+.starBox{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+			
+.star{
+	
+	float: left;
+	height: 50px;
+	width: 50px;
+	
+}
+
+div#preload { display: none; }

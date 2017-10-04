@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #54575C;
+	
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+	
+}
+
+header{
+	position: relative;
+	border-bottom: 3px solid #0655B8;
+	
+}
+
+.logo-image{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: auto;
+	
+}
+
+.system-title{
+	position: relative;
+	float: left;
+	width: 80%;
+	text-align: center;
+	
+	font-size: 40px;
+	line-height: 100px;
+	color: #54575C;
+	
+	/*background-color: blue;*/
+	
+}
+
+footer{
+	text-align: right;
+	font-size: 12px;
+}
+
+.manage-content-options{
+	position: relative;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 50px;
+	
+	/*background-color: blue;*/
+	
+}
+
+.create-business h2,
+.available-business h2,
+.available-business h3,
+.available-users h2{
+	position: relative;
+	font-weight: normal;
+	
+}
+
+.create-business ul,
+.available-business ul,
+.available-users ul{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+}
+
+.create-business ul li,
+.available-business ul li,
+.available-users ul li{
+	margin-left: 40px;
+	
+}
+
+.create-business ul li a:hover,
+.available-business ul li a:hover,
+.available-users ul li a:hover,
+.create-business ul li a:visited,
+.available-business ul li a:visited,
+.available-users ul li a:visited{
+	color: #54575C;
+	
+}
+
+.available-business h3{
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+
+.business-data-box{
+	position: relative;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 50px;
+	
+}
+
+.business-data-box h2{
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #0655B8;
+	
+}
+
+.business-issues{
+	
+	padding: 5px;
+	font-weight: bold;
+	width: 90%;
+	
+}
+
+form .data-button{
+	
+	padding: 5px;
+	margin-left: 50%;
+	margin-top: 20px;
+	width: 10%;
+	
+	
+}
+
+.content-wrapper{
+	position: relative;	
+	
+}
+
+.user-logged{
+	position: absolute;
+	top: -45px;
+	right: 10px;
+	
+}
+
+.additional{
+	margin-top: 5px;
+	
+}
+
+.login-box{
+	position: relative;
+	width: 30%;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	border: 1px solid #54575C;
+	border-radius: 5px;
+	padding: 20px;
+	
+}
+
+.data-input{
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #54575C;
+	height: 25px;
+	
+}
+
+.login-button{
+	width: 30%;
+	margin-left: 60%;
+	padding: 5px;
+	
+}
+
+.item-title{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.mytable{
+	padding-left: 10px;
+	margin-bottom: 20px;
+	
+}
+
+.mytable td:first-child{
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+
+
+#myform{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	
+}
+
+.myOtherTable{
+	float: none;
+	clear: both;
+	
+}
+
+.myOtherTable td{
+	padding: 5px;
+	
+}
+
+.table-title{
+	font-weight: bold;
+	
+}
+
+.average{
+	position: relative;
+	width: 40%;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.freq-table{
+	position: relative;
+	width: 40%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.csv-download{
+	position: relative;
+	width: 40%;
+	float: left;
+	
+}
+
+.description{
+	font-weight: bold;
+	font-size: 10px;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	
+}
+
+.csv-download button{
+	padding: 10px;
+	
+}
